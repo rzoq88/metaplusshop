@@ -87,7 +87,7 @@ router.post(
       user = await User.create({
         name,
         email,
-        // avatar,
+        avatar,
         password,
       });
 
