@@ -39,7 +39,7 @@ router.post("/create-shop", catchAsyncErrors(async (req, res, next) => {
 
     const activationToken = createActivationToken(seller);
 
-    const activationUrl = `https://b273-95-212-126-28.ngrok-free.app/seller/activation/${activationToken}`;
+    const activationUrl = `${process.env.FRONTEND_URL}/seller/activation/${activationToken}`;
 
     try {
       await sendMail({

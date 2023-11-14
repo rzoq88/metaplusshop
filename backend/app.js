@@ -6,7 +6,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 
 app.use(cors({
-  origin: ["http://localhost:3000","https://b273-95-212-126-28.ngrok-free.app"],
+  origin: process.env.CORS_ORIGIN ,
   credentials: true
 }));
 
