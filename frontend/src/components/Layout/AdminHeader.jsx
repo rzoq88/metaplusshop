@@ -14,7 +14,7 @@ const AdminHeader = () => {
       <div>
         <Link to="/">
           <img
-            src=""
+            src="https://res.cloudinary.com/dnjo5yh2i/image/upload/v1699988387/Meta_Plus_Shop_-_Logo_White_-_Full_Size_hhe8zz.png"
             alt=""
           />
         </Link>
