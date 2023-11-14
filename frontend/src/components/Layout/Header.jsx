@@ -57,8 +57,8 @@ const Header = ({ activeHeading }) => {
         <div className="hidden 800px:h-[50px] 800px:my-[20px] 800px:flex items-center justify-between">
           <div>
             <Link to="/">
-              <img
-                src="http://localhost:3000/assets/metalogo.png"
+              <img className="w-[250px]"
+                src="https://res.cloudinary.com/dnjo5yh2i/image/upload/v1699988232/Meta_Plus_Shop_-_Logo_White_Horizontal_-_Name_Slogan_zndqp7.png"
                 alt=""
               />
             </Link>
@@ -97,14 +97,14 @@ const Header = ({ activeHeading }) => {
             ) : null}
           </div>
 
-          <div className={`${styles.button}`}>
+          {/* <div className={`${styles.button}`}>
             <Link to={`${isSeller ? "/dashboard" : "/shop-create"}`}>
               <h1 className="text-[#fff] flex items-center">
                 {isSeller ? "Go Dashboard" : "Become Seller"}{" "}
                 <IoIosArrowForward className="ml-1" />
               </h1>
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
       <div

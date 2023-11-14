@@ -229,7 +229,7 @@ export const navItems = [
       title: "Gifts",
       subTitle: "",
       image_Url:
-        "https://i.pinimg.com/originals/d3/98/7f/d3987f817d3c100ad260a979ffcce639.png",
+        "https://res.cloudinary.com/dnjo5yh2i/image/upload/v1699990368/gift_iwd1go.png",
     },
     {
       id: 7,
