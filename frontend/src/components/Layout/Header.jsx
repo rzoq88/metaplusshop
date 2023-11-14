@@ -217,7 +217,7 @@ const Header = ({ activeHeading }) => {
           <div>
             <Link to="/">
               <img
-                src="/assets/metalogo.png"
+                src="https://res.cloudinary.com/dnjo5yh2i/image/upload/v1699988232/Meta_Plus_Shop_-_Logo_White_Horizontal_-_Name_Slogan_zndqp7.png"
                 alt=""
                 className="mt-3 cursor-pointer"
               />

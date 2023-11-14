@@ -37,7 +37,7 @@ const Footer = () => {
       <div className="grid grid-cols-1 sm:gird-cols-3 lg:grid-cols-4 gap-6 sm:px-8 px-5 py-16 sm:text-center">
         <ul className="px-5 text-center sm:text-start flex sm:block flex-col items-center">
           <img
-            src=""
+            src="https://res.cloudinary.com/dnjo5yh2i/image/upload/v1699988232/Meta_Plus_Shop_-_Logo_White_Horizontal_-_Name_Slogan_zndqp7.png"
             alt=""
             style={{ filter: "brightness(0) invert(1)" }}
           />
