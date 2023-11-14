@@ -6,7 +6,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 
 app.use(cors({
-  origin: process.env.CORS_ORIGIN ,
+  origin: ["http://localhost:3000","https://metafrontend.onrender.com/"],
   credentials: true
 }));
 
