@@ -55,9 +55,9 @@ const Header = ({ activeHeading }) => {
     <>
       <div className={`${styles.section}`}>
         <div className="hidden 800px:h-[50px] 800px:my-[20px] 800px:flex items-center justify-between">
-          <div>
+          <div className="">
             <Link to="/">
-              <img className="w-[250px]"
+              <img className="w-[200px]"
                 src="https://res.cloudinary.com/dnjo5yh2i/image/upload/v1699988232/Meta_Plus_Shop_-_Logo_White_Horizontal_-_Name_Slogan_zndqp7.png"
                 alt=""
               />
@@ -216,10 +216,10 @@ const Header = ({ activeHeading }) => {
           </div>
           <div>
             <Link to="/">
-              <img
+              <img 
                 src="https://res.cloudinary.com/dnjo5yh2i/image/upload/v1699988232/Meta_Plus_Shop_-_Logo_White_Horizontal_-_Name_Slogan_zndqp7.png"
                 alt=""
-                className="mt-3 cursor-pointer"
+                className="mt-3 cursor-pointer w-[150px]"
               />
             </Link>
           </div>
