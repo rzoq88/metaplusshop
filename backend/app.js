@@ -6,7 +6,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 
 app.use(cors({
-  origin: ["http://localhost:3000","https://metaplusfront.onrender.com","https://metaplusshop.vercel.app"],
+  origin: ["http://localhost:3000","https://metaplusfront.onrender.com","https://metaplusshop.vercel.app","https://www.metaplusshop.com"],
   credentials: true
 }));
 
