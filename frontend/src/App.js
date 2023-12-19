@@ -74,7 +74,7 @@ const App = () => {
     Store.dispatch(getAllProducts());
     Store.dispatch(getAllEvents());
     getStripeApikey();
-    document.title =   'Meta Plus'
+    document.title =  'Meta Plus'
   }, []);
 
 
