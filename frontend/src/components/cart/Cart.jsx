@@ -106,7 +106,7 @@ const CartSingle = ({ data, quantityChangeHandler, removeFromCartHandler }) => {
   };
 
   const decrement = (data) => {
-    setValue(value === 1 ? 0 : value - 1);
+    setValue(value === 1 ? 1 : value - 1);
     const updateCartData = { ...data, qty: value === 1 ? 1 : value - 1 };
     quantityChangeHandler(updateCartData);
   };
