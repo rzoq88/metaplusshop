@@ -101,6 +101,7 @@ router.delete(
           event.images[i].public_id
         );
       }
+      console.log(event)
     
       await event.deleteOne();
       
