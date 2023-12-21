@@ -104,6 +104,7 @@ router.delete(
       console.log(event)
     
       await event.deleteOne();
+      await event.save();
       
 
       res.status(201).json({
