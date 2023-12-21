@@ -69,16 +69,16 @@ export const getAllProductsShop = (id) => async (dispatch) => {
 // delete product of a shop
 export const deleteProduct = (id) => async (dispatch) => {
   try {
-    dispatch({
+     dispatch({
       type: "deleteProductRequest",
     });
 
     const { data } = await axios.delete(
       `${server}/product/delete-shop-product/${id}`
-      // ,
-      // {
-      //   withCredentials: true,
-      // }
+      ,
+      {
+        withCredentials: true,
+      }
     );
 
     dispatch({
