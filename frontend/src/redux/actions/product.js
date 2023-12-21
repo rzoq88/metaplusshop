@@ -74,10 +74,11 @@ export const deleteProduct = (id) => async (dispatch) => {
     });
 
     const { data } = await axios.delete(
-      `${server}/product/delete-shop-product/${id}`,
-      {
-        withCredentials: true,
-      }
+      `${server}/product/delete-shop-product/${id}`
+      // ,
+      // {
+      //   withCredentials: true,
+      // }
     );
 
     dispatch({
